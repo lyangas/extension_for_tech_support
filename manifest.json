@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "помогалка для поддержки ВК",
+  "description": "позволяет быстрее отвечать пользователям",
+  "version": "2.0",
+
+  
+  "browser_action": {
+    "default_title": "Помощник Поддержки", // Заголовок. Его видно если навести курсор на иконку в браузере
+    "default_icon": "icon.png", // Путь к иконке расширения
+    "default_popup": "popup.html"// Путь к странице с попапом
+  },
+  "permissions": [
+     "activeTab",
+     "clipboardRead"
+    ]
+
+
+}
